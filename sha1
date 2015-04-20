@@ -1,0 +1,5 @@
+print "Enter something"
+import sha
+a=raw_input()
+print "The sha1 encrypted str is "
+print sha.new(a).hexdigest()
