@@ -1,0 +1,9 @@
+print "Enter the count"
+n=input()
+list=[]
+for i in range(n):
+    num=input()
+    list.append(num)
+list1=set(list)
+print list1
+    
